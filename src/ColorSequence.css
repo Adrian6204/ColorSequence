@@ -1,0 +1,33 @@
+.color-sequence-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .display-sequence {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .display-color {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+  }
+  
+  .color-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3x3 grid for 9 blocks */
+    gap: 10px;
+  }
+  
+  .color-button {
+    width: 80px;
+    height: 80px;
+    border: none;
+    cursor: pointer;
+    background-color: #008080; /* Set default background color */
+    transition: background-color 0.3s ease;
+  }
+  
